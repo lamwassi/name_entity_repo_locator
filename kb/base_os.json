@@ -1,0 +1,3971 @@
+{
+    "riak-kv_ubuntu": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "xampp": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "hello-world": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hello-world"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hello-world"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/hello-world",
+                "https://hub.docker.com/r/armswdev/c-hello-world"
+            ]
+        }
+    },
+    "backdrop": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/backdrop"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "crux": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/crux"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "perl": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/perl"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "openvpn-as": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "erlang": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/erlang"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/erlang"
+            ]
+        }
+    },
+    "python_linux": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "uniface": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "alpine-sass": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "varnish": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hitch"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/varnish",
+                "https://hub.docker.com/r/ibmcom/varnish",
+                "https://hub.docker.com/r/ibmcom/varnish-controller",
+                "https://hub.docker.com/r/ibmcom/varnish-metrics-exporter",
+                "https://hub.docker.com/r/ibmcom/varnish-operator",
+                "https://hub.docker.com/r/ibmcom/varnish-cache-ppc64le"
+            ]
+        }
+    },
+    "oracle weblogic server": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/owncloud",
+                "https://hub.docker.com/_/jetty",
+                "https://hub.docker.com/_/oraclelinux",
+                "https://hub.docker.com/_/notary",
+                "https://hub.docker.com/_/lightstreamer",
+                "https://hub.docker.com/_/php-zendserver",
+                "https://hub.docker.com/_/postfixadmin"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/oracle-database-enterprise-edition",
+                "https://hub.docker.com/_/oracle-serverjre-8",
+                "https://hub.docker.com/_/oracle-instant-client",
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/_/oracle-jdk",
+                "https://hub.docker.com/_/oracle-fmw-infrastructure",
+                "https://hub.docker.com/_/oracle-webtier-12c",
+                "https://hub.docker.com/_/pasoe",
+                "https://hub.docker.com/_/apm-server"
+            ]
+        }
+    },
+    "percona": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/percona"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/percona-server",
+                "https://hub.docker.com/r/percona/percona-xtradb-cluster-operator",
+                "https://hub.docker.com/r/percona/percona-xtradb-cluster",
+                "https://hub.docker.com/r/percona/percona-server",
+                "https://hub.docker.com/r/percona/percona-server-mongodb",
+                "https://hub.docker.com/r/percona/pmm-server",
+                "https://hub.docker.com/r/percona/percona-server-mongodb-operator",
+                "https://hub.docker.com/r/percona/proxysql",
+                "https://hub.docker.com/r/percona/percona-postgresql-operator",
+                "https://hub.docker.com/r/percona/pmm-client",
+                "https://hub.docker.com/r/percona/percona-xtrabackup",
+                "https://hub.docker.com/r/percona/percona-backup-mongodb",
+                "https://hub.docker.com/r/percona/mongodb_exporter",
+                "https://hub.docker.com/r/percona/proxysql2",
+                "https://hub.docker.com/r/bitnami/percona-xtrabackup",
+                "https://hub.docker.com/r/percona/dcos-mongo-tools"
+            ]
+        }
+    },
+    "swipl": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/swipl"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "httpd": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/httpd"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "ros": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ros"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "adoptopenjdk": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/adoptopenjdk"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/adoptopenjdk"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "haskell": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/haskell"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "java se jre_windows": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/appdynamics/java-agent",
+                "https://hub.docker.com/r/portainer/portainer-ce",
+                "https://hub.docker.com/r/portainer/portainer-ee"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/consul",
+                "https://hub.docker.com/_/elasticsearch",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/tomcat",
+                "https://hub.docker.com/_/amazonlinux",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/chronograf",
+                "https://hub.docker.com/_/vault",
+                "https://hub.docker.com/_/ghost",
+                "https://hub.docker.com/_/java",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/solr",
+                "https://hub.docker.com/_/sentry",
+                "https://hub.docker.com/_/groovy",
+                "https://hub.docker.com/_/owncloud",
+                "https://hub.docker.com/_/kapacitor",
+                "https://hub.docker.com/_/jetty"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "java se jre_linux": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/appdynamics/java-agent",
+                "https://hub.docker.com/r/portainer/portainer-ce",
+                "https://hub.docker.com/r/portainer/portainer-ee"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/consul",
+                "https://hub.docker.com/_/elasticsearch",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/tomcat",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/amazonlinux",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/chronograf",
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/vault",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/ghost",
+                "https://hub.docker.com/_/java",
+                "https://hub.docker.com/_/solr",
+                "https://hub.docker.com/_/sentry",
+                "https://hub.docker.com/_/groovy",
+                "https://hub.docker.com/_/owncloud",
+                "https://hub.docker.com/_/jetty",
+                "https://hub.docker.com/_/kapacitor"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "nats-streaming": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nats-streaming"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nats-streaming"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/nats-streaming-ppc64le"
+            ]
+        }
+    },
+    "windows iis": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/windows_exporter-package",
+                "https://hub.docker.com/r/grafana/ci-build-windows"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/microsoft-dotnet-framework",
+                "https://hub.docker.com/_/microsoft-service-fabric-onebox"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/microsoft-windows-servercore-iis",
+                "https://hub.docker.com/_/microsoft-windows-servercore-iis-insider",
+                "https://hub.docker.com/r/rancher/windows-scheduler",
+                "https://hub.docker.com/_/microsoft-windows-servercore",
+                "https://hub.docker.com/_/microsoft-windows-base-os-images",
+                "https://hub.docker.com/_/microsoft-windows",
+                "https://hub.docker.com/_/microsoft-windows-servercore-insider",
+                "https://hub.docker.com/_/microsoft-windows-iotcore",
+                "https://hub.docker.com/_/microsoft-windows-insider",
+                "https://hub.docker.com/_/microsoft-windows-ml-insider",
+                "https://hub.docker.com/_/microsoft-windows-iotcore-insider",
+                "https://hub.docker.com/_/microsoft-windowsprotocoltestsuites",
+                "https://hub.docker.com/_/microsoft-windows-server-insider",
+                "https://hub.docker.com/_/microsoft-windows-server"
+            ]
+        }
+    },
+    "hello-seattle": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hello-seattle"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hello-seattle"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "znc": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/znc"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "php-zendserver": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/php-zendserver"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "mdw": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "reportserver": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/reportserver",
+                "https://hub.docker.com/r/bitnami/reportserverenterprise"
+            ]
+        }
+    },
+    "apache-servicemix": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "sentry": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/sentry"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "acroread": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "alpine-expect": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "consul": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/consul"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/consul",
+                "https://hub.docker.com/r/bitnami/consul-exporter",
+                "https://hub.docker.com/r/ibmcom/consul-ppc64le",
+                "https://hub.docker.com/r/ibmcom/consul-s390x",
+                "https://hub.docker.com/r/ibmcom/consul",
+                "https://hub.docker.com/r/ibmcom/consul-amd64"
+            ]
+        }
+    },
+    "convertigo": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/convertigo"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "kapacitor": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/kapacitor"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/kapacitor"
+            ]
+        }
+    },
+    "lightstreamer": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/lightstreamer"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "redis_linux": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "resin": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "static-file-server": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "eggdrop": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/eggdrop"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "hive": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "nix": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "centos": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/centos"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/kasmweb/centos-7-desktop",
+                "https://hub.docker.com/r/bitnami/centos-base-buildpack",
+                "https://hub.docker.com/r/bitnami/centos-extras-base",
+                "https://hub.docker.com/r/kasmweb/core-centos-7",
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-centos-amd64",
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-centos"
+            ]
+        }
+    },
+    "ansible": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/arista-and-docker-container-tracer",
+                "https://hub.docker.com/r/rancher/ansible-runner",
+                "https://hub.docker.com/r/ibmcom/ansible-lifecycle-driver",
+                "https://hub.docker.com/r/ibmcom/ansible-ppc64le",
+                "https://hub.docker.com/r/ibmcom/ansible-s390x",
+                "https://hub.docker.com/r/ibmcom/ibp-ansible",
+                "https://hub.docker.com/_/concord"
+            ]
+        }
+    },
+    "sonarqube": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/sonarqube"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/sonarqube",
+                "https://hub.docker.com/r/ibmcom/sonarqube-s390x"
+            ]
+        }
+    },
+    "sas": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/sas-mgmt",
+                "https://hub.docker.com/r/ibmcom/sas-api"
+            ]
+        }
+    },
+    "haproxy": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/haproxy"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/haproxy",
+                "https://hub.docker.com/r/rancher/haproxy-tomcat",
+                "https://hub.docker.com/r/rancher/haproxy-cadvisor",
+                "https://hub.docker.com/r/ibmcom/haproxy-ppc64le",
+                "https://hub.docker.com/r/ibmcom/haproxy"
+            ]
+        }
+    },
+    "r-base": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/r-base"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/r-base-ppc64le"
+            ]
+        }
+    },
+    "postgresql": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/postgres"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/postgresql",
+                "https://hub.docker.com/_/thingsboard-pe",
+                "https://hub.docker.com/r/bitnami/postgresql-repmgr",
+                "https://hub.docker.com/r/enterprisedb/postgresql",
+                "https://hub.docker.com/r/ibmcom/postgresql",
+                "https://hub.docker.com/r/ibmcom/postgresql-s390x",
+                "https://hub.docker.com/r/circleci/postgres",
+                "https://hub.docker.com/r/ibmcom/postgresql-amd64",
+                "https://hub.docker.com/r/ibmcom/postgresql-ppc64le",
+                "https://hub.docker.com/r/percona/percona-postgresql-operator",
+                "https://hub.docker.com/r/ubuntu/postgres",
+                "https://hub.docker.com/r/enterprisedb/cloud-native-postgresql",
+                "https://hub.docker.com/_/microsoft-azure-oss-db-tools-pgbouncer-sidecar"
+            ]
+        }
+    },
+    "busybox": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/busybox"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/r/ibmcom/busybox",
+                "https://hub.docker.com/r/rancher/busybox",
+                "https://hub.docker.com/r/ibmcom/busybox-amd64",
+                "https://hub.docker.com/r/ibmcom/busybox-ppc64le"
+            ]
+        }
+    },
+    "spfx": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "db2": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/ibm-db2-warehouse-ee",
+                "https://hub.docker.com/_/ibm-db2-warehouse-dev",
+                "https://hub.docker.com/_/ibm-db2-warehouse-client-container",
+                "https://hub.docker.com/_/ibm-db2-warehouse-sample-container",
+                "https://hub.docker.com/r/ibmcom/db2",
+                "https://hub.docker.com/_/data-studio",
+                "https://hub.docker.com/r/ibmcom/db2u.auxiliary.auth",
+                "https://hub.docker.com/r/ibmcom/db2u-operator",
+                "https://hub.docker.com/r/ibmcom/db2u.tools",
+                "https://hub.docker.com/r/ibmcom/db2console",
+                "https://hub.docker.com/r/ibmcom/db2u.instdb",
+                "https://hub.docker.com/r/ibmcom/db2-amd64",
+                "https://hub.docker.com/r/ibmcom/db2-s390x",
+                "https://hub.docker.com/r/ibmcom/db2-ppc64le",
+                "https://hub.docker.com/r/ibmcom/db2u.tools-amd64",
+                "https://hub.docker.com/r/ibmcom/db2u.instdb-amd64",
+                "https://hub.docker.com/r/ibmcom/db2u.auxiliary.auth-amd64"
+            ]
+        }
+    },
+    "mongo_windows": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "infobright": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "neurodebian": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/neurodebian"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "teamspeak": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/teamspeak"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "solr": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/solr"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/solr"
+            ]
+        }
+    },
+    "bmc": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "nats": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nats",
+                "https://hub.docker.com/_/nats-streaming"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nats",
+                "https://hub.docker.com/_/nats-streaming"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/nats",
+                "https://hub.docker.com/r/bitnami/nats-exporter",
+                "https://hub.docker.com/r/bitnami/nats-trigger-controller",
+                "https://hub.docker.com/r/ibmcom/nats-streaming-ppc64le"
+            ]
+        }
+    },
+    "svf": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "docker-pentaho": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "dynamics-nav": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "rethinkdb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/rethinkdb"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/mirantis/rethinkdb",
+                "https://hub.docker.com/r/ibmcom/rethinkdb-ppc64le",
+                "https://hub.docker.com/r/ibmcom/rethinkdb-s390x"
+            ]
+        }
+    },
+    "arcgisserver": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "eclipse-mosquitto": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/eclipse-mosquitto"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "golang_windows": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "ibm workload scheduler 9.5": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/ibp-init",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-orderer",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-ca",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-couchdb",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-peer",
+                "https://hub.docker.com/r/ibmcom/ibp-grpcweb"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ibmjava",
+                "https://hub.docker.com/_/ibm-semeru-runtimes"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/arista-and-docker-container-tracer",
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/_/ibm-db2-warehouse-ee",
+                "https://hub.docker.com/_/data-studio",
+                "https://hub.docker.com/_/ibm-security-guardium-external-stap",
+                "https://hub.docker.com/_/ibm-security-information-queue",
+                "https://hub.docker.com/_/ibm-db2-warehouse-client-container",
+                "https://hub.docker.com/_/ibm-db2-warehouse-dev",
+                "https://hub.docker.com/_/ibm-db2-warehouse-sample-container",
+                "https://hub.docker.com/_/ibm-netcool-probe-email",
+                "https://hub.docker.com/_/data-server-manager-developer-c-edition",
+                "https://hub.docker.com/r/ibmcom/ibm-operator-catalog",
+                "https://hub.docker.com/r/ibmcom/pause",
+                "https://hub.docker.com/r/ibmcom/ibm-mq-operator",
+                "https://hub.docker.com/r/ibmcom/mq",
+                "https://hub.docker.com/r/ibmcom/cloudant-developer",
+                "https://hub.docker.com/r/ibmcom/ibm-cloud-databases-redis-operator",
+                "https://hub.docker.com/r/ibmcom/pipeline-base-image",
+                "https://hub.docker.com/r/ibmcom/icp-nodejs-sample",
+                "https://hub.docker.com/r/ibmcom/ibm-apiconnect-operator",
+                "https://hub.docker.com/r/ibmcom/microclimate-theia",
+                "https://hub.docker.com/r/ibmcom/microclimate-file-watcher",
+                "https://hub.docker.com/r/ibmcom/datapower"
+            ]
+        }
+    },
+    "flash": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/aerospike"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/purestorage/k8s",
+                "https://hub.docker.com/r/kasmweb/firefox-flash",
+                "https://hub.docker.com/r/kasmweb/chrome-flash"
+            ]
+        }
+    },
+    "openjdk_linux": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "owncloud": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/owncloud"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/owncloud"
+            ]
+        }
+    },
+    "cassandra": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/cassandra"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/cassandra",
+                "https://hub.docker.com/r/bitnami/cassandra-exporter",
+                "https://hub.docker.com/r/circleci/cassandra",
+                "https://hub.docker.com/r/ubuntu/cassandra",
+                "https://hub.docker.com/r/google/apigee-cassandra-backup-utility",
+                "https://hub.docker.com/r/google/apigee-cassandra-client",
+                "https://hub.docker.com/r/google/apigee-cassandra"
+            ]
+        }
+    },
+    "mongo": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/mongo-express"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/mongodb",
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/r/circleci/mongo",
+                "https://hub.docker.com/r/bitnami/mongodb-exporter",
+                "https://hub.docker.com/r/bitnami/mongodb-sharded",
+                "https://hub.docker.com/r/rancher/mongodb-conf",
+                "https://hub.docker.com/r/ibmcom/mongodb",
+                "https://hub.docker.com/r/percona/mongodb_exporter",
+                "https://hub.docker.com/r/rancher/mongodb-config",
+                "https://hub.docker.com/r/ibmcom/mongodb-ppc64le",
+                "https://hub.docker.com/r/percona/percona-server-mongodb-operator",
+                "https://hub.docker.com/r/percona/percona-server-mongodb",
+                "https://hub.docker.com/r/ibmcom/mongodb-s390x",
+                "https://hub.docker.com/r/ibmcom/mongo-java-driver-ppc64le",
+                "https://hub.docker.com/r/ibmcom/mongodb-amd64",
+                "https://hub.docker.com/r/ibmcom/mongo-c-driver-ppc64le",
+                "https://hub.docker.com/r/ibmcom/mongodb-exporter-ppc64le"
+            ]
+        }
+    },
+    "monica": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/monica"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "ruby": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ruby",
+                "https://hub.docker.com/_/jruby",
+                "https://hub.docker.com/_/redmine"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/ruby",
+                "https://hub.docker.com/r/bitnami/ruby",
+                "https://hub.docker.com/r/bitnami/ruby-example",
+                "https://hub.docker.com/r/bitnami/rails",
+                "https://hub.docker.com/r/amazon/aws-lambda-ruby",
+                "https://hub.docker.com/r/circleci/cci-demo-rails",
+                "https://hub.docker.com/r/ibmcom/jruby-ppc64le"
+            ]
+        }
+    },
+    "couchdb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchdb"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/couchdb3",
+                "https://hub.docker.com/r/ibmcom/couchdb2",
+                "https://hub.docker.com/r/ibmcom/couchdb-operator",
+                "https://hub.docker.com/r/ibmcom/couchdb-operator-mgmt",
+                "https://hub.docker.com/r/bitnami/couchdb",
+                "https://hub.docker.com/r/ibmcom/couchdb-operator-catalog",
+                "https://hub.docker.com/r/ibmcom/couchdb-ppc64le",
+                "https://hub.docker.com/r/ibmcom/couchdb-operator-bundle",
+                "https://hub.docker.com/r/ibmcom/couchdb-s390x"
+            ]
+        }
+    },
+    "sap hana, express edition (database and application services)": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/portainer/portainer-ce",
+                "https://hub.docker.com/r/portainer/portainer-ee",
+                "https://hub.docker.com/r/amazon/amazon-ec2-instance-selector"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/alpine",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/registry",
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/consul",
+                "https://hub.docker.com/_/wordpress",
+                "https://hub.docker.com/_/elasticsearch",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/tomcat",
+                "https://hub.docker.com/_/debian",
+                "https://hub.docker.com/_/amazonlinux",
+                "https://hub.docker.com/_/maven",
+                "https://hub.docker.com/_/mongo-express",
+                "https://hub.docker.com/_/logstash",
+                "https://hub.docker.com/_/eclipse-mosquitto",
+                "https://hub.docker.com/_/telegraf",
+                "https://hub.docker.com/_/vault",
+                "https://hub.docker.com/_/ghost",
+                "https://hub.docker.com/_/gradle",
+                "https://hub.docker.com/_/rethinkdb",
+                "https://hub.docker.com/_/kong",
+                "https://hub.docker.com/_/kibana",
+                "https://hub.docker.com/_/flink"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "vb": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "nextcloud": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nextcloud"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "groovy": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/groovy"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "swarm": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/portainer/agent"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/swarm"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/swarmkit",
+                "https://hub.docker.com/r/rancher/swarm-agent",
+                "https://hub.docker.com/r/portainer/agent"
+            ]
+        }
+    },
+    "nginx-ingress": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/nginx-ingress-controller",
+                "https://hub.docker.com/r/bitnami/nginx-ingress-controller",
+                "https://hub.docker.com/r/rancher/nginx-ingress-controller-defaultbackend",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller-ppc64le",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller",
+                "https://hub.docker.com/r/wallarm/nginx-ingress-controller",
+                "https://hub.docker.com/r/rancher/nginx-ingress-controller-amd64",
+                "https://hub.docker.com/r/wallarm/nginx-ingress-controller-amd64",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller-s390x",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller-amd64"
+            ]
+        }
+    },
+    "rv-tibco": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "activemq": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/activemq-ppc64le",
+                "https://hub.docker.com/r/ibmcom/activemq-cpp-ppc64le"
+            ]
+        }
+    },
+    "composer": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/composer"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/ibm-cloud-automation-manager"
+            ]
+        }
+    },
+    "tcl": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/swig-ppc64le"
+            ]
+        }
+    },
+    "ooce": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "ubuntu": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ubuntu",
+                "https://hub.docker.com/_/websphere-liberty",
+                "https://hub.docker.com/_/open-liberty",
+                "https://hub.docker.com/_/neurodebian"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/puppet-agent-ubuntu",
+                "https://hub.docker.com/r/ubuntu/nginx",
+                "https://hub.docker.com/r/ubuntu/cortex",
+                "https://hub.docker.com/r/ubuntu/apache2",
+                "https://hub.docker.com/r/ubuntu/redis",
+                "https://hub.docker.com/r/ubuntu/prometheus",
+                "https://hub.docker.com/r/ubuntu/postgres",
+                "https://hub.docker.com/r/ubuntu/bind9",
+                "https://hub.docker.com/r/ubuntu/mysql",
+                "https://hub.docker.com/r/ubuntu/grafana",
+                "https://hub.docker.com/r/ubuntu/memcached",
+                "https://hub.docker.com/r/ubuntu/squid",
+                "https://hub.docker.com/r/ubuntu/prometheus-alertmanager",
+                "https://hub.docker.com/r/ubuntu/telegraf",
+                "https://hub.docker.com/r/ubuntu/cassandra",
+                "https://hub.docker.com/r/kasmweb/ubuntu-bionic-desktop",
+                "https://hub.docker.com/r/bitnami/ubuntu-base-buildpack",
+                "https://hub.docker.com/r/snyk/ubuntu",
+                "https://hub.docker.com/r/pachyderm/ubuntuplusnetcat",
+                "https://hub.docker.com/r/pachyderm/ubuntu-with-s3-clients",
+                "https://hub.docker.com/r/ibmcom/ubuntu"
+            ]
+        }
+    },
+    "microsoft sql server": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/owncloud",
+                "https://hub.docker.com/_/jetty",
+                "https://hub.docker.com/_/crate",
+                "https://hub.docker.com/_/mono",
+                "https://hub.docker.com/_/lightstreamer",
+                "https://hub.docker.com/_/fsharp",
+                "https://hub.docker.com/_/notary",
+                "https://hub.docker.com/_/php-zendserver",
+                "https://hub.docker.com/_/postfixadmin",
+                "https://hub.docker.com/_/microsoft-mssql-server",
+                "https://hub.docker.com/_/softwareag-zementis-server"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/_/pasoe",
+                "https://hub.docker.com/_/apm-server",
+                "https://hub.docker.com/_/intersystems-iris-data-platform",
+                "https://hub.docker.com/_/percona-server"
+            ]
+        }
+    },
+    "vmware-tools": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "oracle middleware (including oracle forms & reports and oracle traffic director)": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/amazon/amazon-ec2-instance-selector"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/alpine",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/registry",
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/consul",
+                "https://hub.docker.com/_/wordpress",
+                "https://hub.docker.com/_/elasticsearch",
+                "https://hub.docker.com/_/tomcat",
+                "https://hub.docker.com/_/debian",
+                "https://hub.docker.com/_/amazonlinux",
+                "https://hub.docker.com/_/maven",
+                "https://hub.docker.com/_/logstash",
+                "https://hub.docker.com/_/mongo-express",
+                "https://hub.docker.com/_/eclipse-mosquitto",
+                "https://hub.docker.com/_/telegraf",
+                "https://hub.docker.com/_/vault",
+                "https://hub.docker.com/_/ghost",
+                "https://hub.docker.com/_/gradle",
+                "https://hub.docker.com/_/rethinkdb",
+                "https://hub.docker.com/_/kong",
+                "https://hub.docker.com/_/kibana",
+                "https://hub.docker.com/_/flink",
+                "https://hub.docker.com/_/drupal"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "rails": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redmine",
+                "https://hub.docker.com/_/rails"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/rails",
+                "https://hub.docker.com/r/ibmcom/rails-s390x",
+                "https://hub.docker.com/r/circleci/cci-demo-rails"
+            ]
+        }
+    },
+    "postgres": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/softwareag-apiportal",
+                "https://hub.docker.com/_/softwareag-aris-connect",
+                "https://hub.docker.com/_/softwareag-arcm"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/postgresql",
+                "https://hub.docker.com/r/circleci/postgres",
+                "https://hub.docker.com/_/thingsboard-pe",
+                "https://hub.docker.com/r/bitnami/postgres-exporter",
+                "https://hub.docker.com/r/bitnami/postgresql-repmgr",
+                "https://hub.docker.com/r/ubuntu/postgres",
+                "https://hub.docker.com/r/enterprisedb/postgresql",
+                "https://hub.docker.com/r/circleci/postgres-script-enhance",
+                "https://hub.docker.com/r/ibmcom/postgresql",
+                "https://hub.docker.com/r/ibmcom/postgresql-s390x",
+                "https://hub.docker.com/r/circleci/postgres-upgrade",
+                "https://hub.docker.com/r/ibmcom/postgresql-amd64",
+                "https://hub.docker.com/r/ibmcom/postgresql-ppc64le",
+                "https://hub.docker.com/r/percona/percona-postgresql-operator",
+                "https://hub.docker.com/r/enterprisedb/cloud-native-postgresql",
+                "https://hub.docker.com/r/atlassian/proforma-postgres-testdata",
+                "https://hub.docker.com/_/microsoft-azure-oss-db-tools-pgbouncer-sidecar"
+            ]
+        }
+    },
+    "riak-kv_centos": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "notary": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/notary"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/notary-signer-amd64",
+                "https://hub.docker.com/r/ibmcom/notary-server-amd64",
+                "https://hub.docker.com/r/ibmcom/notary-signer",
+                "https://hub.docker.com/r/ibmcom/notary-server",
+                "https://hub.docker.com/r/ibmcom/notary-signer-ppc64le",
+                "https://hub.docker.com/r/ibmcom/notary-server-s390x",
+                "https://hub.docker.com/r/ibmcom/notary-signer-s390x",
+                "https://hub.docker.com/r/ibmcom/notary-server-ppc64le"
+            ]
+        }
+    },
+    "postfixadmin": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/postfixadmin"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "lucee52": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "rakudo-star": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/rakudo-star"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "rust": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/rust"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/rust",
+                "https://hub.docker.com/r/ibmcom/rust-ppc64le"
+            ]
+        }
+    },
+    "traefik": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/traefik"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/traefik"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/traefikee"
+            ]
+        }
+    },
+    "ahfcmd": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "amazonlinux": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/amazonlinux"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/amazonlinux-base-buildpack"
+            ]
+        }
+    },
+    "django": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/django"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/django-ppc64le"
+            ]
+        }
+    },
+    "thrift": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/thrift"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/thrift-ppc64le"
+            ]
+        }
+    },
+    "gpdb-devel": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "python_windows": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "dart": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/dart"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/google/dart",
+                "https://hub.docker.com/r/google/dart-runtime",
+                "https://hub.docker.com/r/google/dart-hello",
+                "https://hub.docker.com/r/google/dart-runtime-base"
+            ]
+        }
+    },
+    "node": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mongo-express",
+                "https://hub.docker.com/_/softwareag-commandcentral"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/thingsboard-pe-node",
+                "https://hub.docker.com/_/storageos-node",
+                "https://hub.docker.com/_/thingsboard-pe-js-executor",
+                "https://hub.docker.com/r/circleci/node",
+                "https://hub.docker.com/r/bitnami/node",
+                "https://hub.docker.com/r/bitnami/node-exporter",
+                "https://hub.docker.com/r/bitnami/node-example",
+                "https://hub.docker.com/r/appdynamics/nodejs-agent",
+                "https://hub.docker.com/r/ibmcom/node-exporter",
+                "https://hub.docker.com/r/sysdig/node-image-analyzer",
+                "https://hub.docker.com/r/wallarm/node",
+                "https://hub.docker.com/r/purestorage/node-config",
+                "https://hub.docker.com/r/bitnami/node-snapshot",
+                "https://hub.docker.com/r/ibmcom/node-exporter-ppc64le",
+                "https://hub.docker.com/r/ibmcom/nodejs-mobile-foundation",
+                "https://hub.docker.com/r/rancher/node-exporter",
+                "https://hub.docker.com/r/ibmcom/node-problem-detector",
+                "https://hub.docker.com/r/ibmcom/node-exporter-s390x",
+                "https://hub.docker.com/r/wallarm/node-k8s-amd64",
+                "https://hub.docker.com/r/ibmcom/node-exporter-amd64",
+                "https://hub.docker.com/r/wallarm/node-k8s",
+                "https://hub.docker.com/r/ibmcom/node-problem-detector-amd64"
+            ]
+        }
+    },
+    "crate": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/crate"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/crate-ppc64le"
+            ]
+        }
+    },
+    "imsdb": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "openjdk": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/eclipse-temurin"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/eclipse-temurin",
+                "https://hub.docker.com/_/ibm-semeru-runtimes"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/openjdk",
+                "https://hub.docker.com/_/microsoft-zulu-for-azure-build-of-openjdk",
+                "https://hub.docker.com/_/microsoft-openjdk-jdk",
+                "https://hub.docker.com/_/microsoft-java-jre",
+                "https://hub.docker.com/_/microsoft-java-jdk",
+                "https://hub.docker.com/_/microsoft-java-jre-headless",
+                "https://hub.docker.com/_/microsoft-java-tomcat",
+                "https://hub.docker.com/_/microsoft-java-maven"
+            ]
+        }
+    },
+    "docker-teradata-client": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "rocket.chat": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/rocket-chat"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/rocketchat"
+            ]
+        }
+    },
+    "oracle database enterprise edition": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/mysql",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/adminer",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/rethinkdb",
+                "https://hub.docker.com/_/solr",
+                "https://hub.docker.com/_/neo4j",
+                "https://hub.docker.com/_/xwiki",
+                "https://hub.docker.com/_/oraclelinux",
+                "https://hub.docker.com/_/crate",
+                "https://hub.docker.com/_/arangodb",
+                "https://hub.docker.com/_/aerospike",
+                "https://hub.docker.com/_/ibmjava"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-database-enterprise-edition",
+                "https://hub.docker.com/_/oracle-instant-client",
+                "https://hub.docker.com/_/oracle-serverjre-8",
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/mysql-enterprise-server"
+            ]
+        }
+    },
+    "spark": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/spark",
+                "https://hub.docker.com/_/microsoft-mmlspark",
+                "https://hub.docker.com/_/microsoft-mmlspark-release"
+            ]
+        }
+    },
+    "elasticsearch": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/elasticsearch",
+                "https://hub.docker.com/_/kibana"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/logagent",
+                "https://hub.docker.com/r/bitnami/elasticsearch",
+                "https://hub.docker.com/r/bitnami/elasticsearch-exporter",
+                "https://hub.docker.com/r/ibmcom/elasticsearch",
+                "https://hub.docker.com/r/bitnami/elasticsearch-curator",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-ppc64le",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-plugin-searchguard",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-exporter",
+                "https://hub.docker.com/_/appbaseio",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-s390x",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-amd64",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-plugin-searchguard-amd64",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-exporter-amd64",
+                "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-plugin-searchguard-ppc64le",
+                "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-exporter-ppc64le",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-exporter-s390x",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-plugin-searchguard-s390x",
+                "https://hub.docker.com/r/ibmcom/elasticsearch-dump",
+                "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-data-prepper",
+                "https://hub.docker.com/r/atlassian/dynamodb-elasticsearch-indexer"
+            ]
+        }
+    },
+    "vault": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/vault"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/vault-ppc64le",
+                "https://hub.docker.com/r/circleci/vault-cci",
+                "https://hub.docker.com/r/rancher/vault-volume-driver",
+                "https://hub.docker.com/_/microsoft-iot-opc-vault-service"
+            ]
+        }
+    },
+    "tivoli monitoring server (hub tems)": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/owncloud",
+                "https://hub.docker.com/_/kapacitor",
+                "https://hub.docker.com/_/jetty",
+                "https://hub.docker.com/_/notary",
+                "https://hub.docker.com/_/lightstreamer",
+                "https://hub.docker.com/_/php-zendserver",
+                "https://hub.docker.com/_/postfixadmin"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/_/pasoe",
+                "https://hub.docker.com/_/site24x7-linux-docker-agent",
+                "https://hub.docker.com/_/apm-server",
+                "https://hub.docker.com/_/heartbeat",
+                "https://hub.docker.com/_/dynatrace",
+                "https://hub.docker.com/_/bleemeo",
+                "https://hub.docker.com/_/coscale-agent",
+                "https://hub.docker.com/_/sitescope"
+            ]
+        }
+    },
+    "graphql-demo": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "golang_linux": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "joomla": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/joomla"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/joomla",
+                "https://hub.docker.com/r/ibmcom/joomla-ppc64le"
+            ]
+        }
+    },
+    "maxdb-provider": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "couchbase": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/couchbase-ppc64le",
+                "https://hub.docker.com/r/ibmcom/couchbase-s390x"
+            ]
+        }
+    },
+    "aerospike": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/aerospike"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/aerospike-server-community-edition"
+            ]
+        }
+    },
+    "informix-developer-database": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/informix-developer-database"
+            ]
+        }
+    },
+    "netscaler-cpx": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/netscaler-cpx",
+                "https://hub.docker.com/_/netscaler-cpx-express",
+                "https://hub.docker.com/_/netscaler-cpx-express-rel-120-experimental"
+            ]
+        }
+    },
+    "elixir": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/elixir"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/elixir"
+            ]
+        }
+    },
+    "chrome": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/kasmweb/chrome",
+                "https://hub.docker.com/r/kasmweb/chrome-flash",
+                "https://hub.docker.com/r/kasmweb/hunchly"
+            ]
+        }
+    },
+    "progress application server (pas) for openedge": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/julia",
+                "https://hub.docker.com/_/eclipse-temurin"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/portainer/portainer-ce",
+                "https://hub.docker.com/r/portainer/portainer-ee",
+                "https://hub.docker.com/r/datadog/agent",
+                "https://hub.docker.com/r/datadog/agent-dev",
+                "https://hub.docker.com/r/appdynamics/machine-agent-analytics",
+                "https://hub.docker.com/r/ibmcom/ibp-init",
+                "https://hub.docker.com/r/appdynamics/java-agent",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-orderer",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-ca",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-couchdb",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-peer",
+                "https://hub.docker.com/r/appdynamics/analytics-agent",
+                "https://hub.docker.com/r/amazon/amazon-ec2-metadata-mock"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/registry",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/nextcloud",
+                "https://hub.docker.com/_/sonarqube",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/php",
+                "https://hub.docker.com/_/amazonlinux",
+                "https://hub.docker.com/_/logstash",
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/chronograf",
+                "https://hub.docker.com/_/telegraf",
+                "https://hub.docker.com/_/vault",
+                "https://hub.docker.com/_/teamspeak",
+                "https://hub.docker.com/_/kong",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/gradle",
+                "https://hub.docker.com/_/buildpack-deps",
+                "https://hub.docker.com/_/groovy",
+                "https://hub.docker.com/_/drupal"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "oracle-soa-suite-12c": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "cognos": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "drupal": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/drupal"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/drupal",
+                "https://hub.docker.com/r/bitnami/drupal-nginx"
+            ]
+        }
+    },
+    "mysql": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mysql",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/phpmyadmin"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/r/circleci/mysql",
+                "https://hub.docker.com/r/bitnami/mysql",
+                "https://hub.docker.com/r/bitnami/mysqld-exporter",
+                "https://hub.docker.com/r/ubuntu/mysql",
+                "https://hub.docker.com/r/ibmcom/mysql-s390x",
+                "https://hub.docker.com/r/mirantis/mysql",
+                "https://hub.docker.com/r/ibmcom/tidb-ppc64le"
+            ]
+        }
+    },
+    "xwiki": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/xwiki"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "ibmjava": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ibmjava"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "swift": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/swift"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-runtime",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-xenial-amd64",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-xenial",
+                "https://hub.docker.com/r/ibmcom/swift-helloworld-ubuntu",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-xenial-runtime",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-xenial-runtime-amd64",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu14",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-xenial-s390x",
+                "https://hub.docker.com/r/ibmcom/swift-ubuntu-xenial-runtime-s390x",
+                "https://hub.docker.com/r/ibmcom/swift-apple-ppc64le",
+                "https://hub.docker.com/r/ibmcom/swift-ppc64le"
+            ]
+        }
+    },
+    "wildfly": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/wildfly",
+                "https://hub.docker.com/r/ibmcom/wildfly-s390x"
+            ]
+        }
+    },
+    "ghost": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ghost"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/ghost"
+            ]
+        }
+    },
+    "sap maxdb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/sapmachine"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/sap-abap-trial",
+                "https://hub.docker.com/_/sap-hana-express-edition",
+                "https://hub.docker.com/_/sap-hana-express-edition-incl-application-services",
+                "https://hub.docker.com/_/microsoft-azure-sentinel-solutions-sapcon"
+            ]
+        }
+    },
+    "sqldeveloper": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "mssql-server-windows-developer": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "golang": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/golang"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/golang"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/golang"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/golang",
+                "https://hub.docker.com/r/portainer/golang-builder",
+                "https://hub.docker.com/r/bitnami/golang",
+                "https://hub.docker.com/r/ibmcom/golang-net-ppc64le",
+                "https://hub.docker.com/_/galacticfog",
+                "https://hub.docker.com/r/puppet/gogrpc",
+                "https://hub.docker.com/r/datadog/dogstatsdclienttest"
+            ]
+        }
+    },
+    "maven": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/maven"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/atlassian/maven",
+                "https://hub.docker.com/_/microsoft-java-maven"
+            ]
+        }
+    },
+    "buildpack-deps": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/buildpack-deps"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/buildpack-deps"
+            ]
+        }
+    },
+    "jruby": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/jruby"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/jruby",
+                "https://hub.docker.com/r/bitnami/jruby",
+                "https://hub.docker.com/r/ibmcom/jruby-ppc64le"
+            ]
+        }
+    },
+    "photon": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/photon"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-fedora-python",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-fedora-node",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-alpine-node",
+                "https://hub.docker.com/r/bitnami/photon-base-buildpack",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-alpine-openjdk",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-alpine-golang",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-alpine-python",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-fedora-golang",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-node",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-ubuntu-node",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-fedora-openjdk",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-python",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-debian-python",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-debian-node",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-ubuntu-openjdk",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-ubuntu-python",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-ubuntu-golang",
+                "https://hub.docker.com/r/balenalib/photon-nano-fedora-python",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-debian-golang",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-golang",
+                "https://hub.docker.com/r/balenalib/photon-nano-fedora-node",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-debian-dotnet",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-openjdk",
+                "https://hub.docker.com/r/balenalib/photon-xavier-nx-dotnet"
+            ]
+        }
+    },
+    "splunk": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/splunk-universal-forwarder"
+            ]
+        }
+    },
+    "neo4j": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/neo4j"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/neo4j/neo4j-experimental",
+                "https://hub.docker.com/r/neo4j/neo4j-dcos-proxy",
+                "https://hub.docker.com/r/neo4j/neo4j-sandbox-3.5-v2",
+                "https://hub.docker.com/r/neo4j/neo4j-dcos",
+                "https://hub.docker.com/r/neo4j/neo4j-arm64-experimental",
+                "https://hub.docker.com/r/neo4j/neo4j-3.5-browser-4.1.2",
+                "https://hub.docker.com/r/bitnami/neo4j",
+                "https://hub.docker.com/r/neo4j/neo4j-sandbox-3.5",
+                "https://hub.docker.com/r/neo4j/neo4j-sandbox-twitter",
+                "https://hub.docker.com/r/neo4j/neo4j-3.5-browser-4.1.2-beta",
+                "https://hub.docker.com/r/neo4j/neo4j-sandbox-3.3",
+                "https://hub.docker.com/r/neo4j/neo4j-importer",
+                "https://hub.docker.com/r/ibmcom/neo4j-s390x",
+                "https://hub.docker.com/r/ibmcom/neo4j-ppc64le",
+                "https://hub.docker.com/_/datalink-csv"
+            ]
+        }
+    },
+    "typescript": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "sqlite": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/microsoft-azureiotedge-sqlite"
+            ]
+        }
+    },
+    "celery": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/celery"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/celery-ppc64le"
+            ]
+        }
+    },
+    "gazebo": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/gazebo"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "delphi-prod": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "tomee": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/tomee"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "docker-cobol": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "kibana": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/kibana",
+                "https://hub.docker.com/_/softwareag-apiportal"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/kibana",
+                "https://hub.docker.com/r/ibmcom/kibana",
+                "https://hub.docker.com/r/ibmcom/kibana-ppc64le",
+                "https://hub.docker.com/r/rancher/kibana",
+                "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana",
+                "https://hub.docker.com/r/ibmcom/kibana-s390x",
+                "https://hub.docker.com/r/ibmcom/kibana-amd64",
+                "https://hub.docker.com/_/microsoft-azuredataexplorer-k2bridge"
+            ]
+        }
+    },
+    "flink": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/flink"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "scratch": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/portainer/base"
+            ]
+        }
+    },
+    "rapidoid": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/rapidoid"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "redmine": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redmine"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/redmine"
+            ]
+        }
+    },
+    "chef": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/chef-ppc64le"
+            ]
+        }
+    },
+    "nexus3": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "sapmachine": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/sapmachine"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "jenkins": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/jenkins"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/jenkins",
+                "https://hub.docker.com/r/rancher/jenkins-jenkins",
+                "https://hub.docker.com/r/rancher/jenkins-jnlp-slave",
+                "https://hub.docker.com/r/rancher/jenkins-slave",
+                "https://hub.docker.com/r/rancher/jenkins-master",
+                "https://hub.docker.com/r/bitnami/jenkins-exporter",
+                "https://hub.docker.com/r/rancher/jenkins-plugins-docker",
+                "https://hub.docker.com/r/ibmcom/jenkins-ppc64le",
+                "https://hub.docker.com/r/rancher/jenkins-swarm",
+                "https://hub.docker.com/r/rancher/jenkins-boot",
+                "https://hub.docker.com/r/mirantis/jenkins",
+                "https://hub.docker.com/r/ibmcom/jenkins-jnlp-slave-ppc64le",
+                "https://hub.docker.com/r/ibmcom/jenkins-slave-ppc64le",
+                "https://hub.docker.com/r/ibmcom/jenkins-jnlp-slave-s390x",
+                "https://hub.docker.com/r/ibmcom/jenkins",
+                "https://hub.docker.com/r/ibmcom/mb-jenkins"
+            ]
+        }
+    },
+    "activiti": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "haxe": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/haxe"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/haxe"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "friendica": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/friendica"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "zeromq": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/zeromq-ppc64le"
+            ]
+        }
+    },
+    "websphere-liberty": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/websphere-liberty"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/websphere-liberty",
+                "https://hub.docker.com/r/ibmcom/websphere-liberty-s2i"
+            ]
+        }
+    },
+    "fabric-ca": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "hbase": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/hbase-s390x"
+            ]
+        }
+    },
+    "memcached": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/memcached"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/memcached",
+                "https://hub.docker.com/r/bitnami/memcached-exporter",
+                "https://hub.docker.com/r/ubuntu/memcached",
+                "https://hub.docker.com/r/ibmcom/memcached-ppc64le"
+            ]
+        }
+    },
+    "fortran-gfortran": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "ubuntu-debootstrap": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "pascal-fp_compiler": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "hipache": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hipache"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "irssi": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/irssi"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "iib": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/r/ibmcom/iib",
+                "https://hub.docker.com/r/ibmcom/iib-mq-server"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "hola-mundo": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hola-mundo"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hola-mundo"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "kitura-ubuntu": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/kitura-ubuntu",
+                "https://hub.docker.com/r/ibmcom/kitura-ubuntu14"
+            ]
+        }
+    },
+    "base": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/amazon/amazon-ec2-instance-selector"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ubuntu",
+                "https://hub.docker.com/_/alpine",
+                "https://hub.docker.com/_/busybox",
+                "https://hub.docker.com/_/websphere-liberty",
+                "https://hub.docker.com/_/open-liberty",
+                "https://hub.docker.com/_/r-base",
+                "https://hub.docker.com/_/postfixadmin",
+                "https://hub.docker.com/_/mageia"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/bleemeo",
+                "https://hub.docker.com/_/thingsboard-pe-http-transport",
+                "https://hub.docker.com/_/thingsboard-pe-mqtt-transport",
+                "https://hub.docker.com/r/portainer/base",
+                "https://hub.docker.com/_/thingsboard-pe-coap-transport",
+                "https://hub.docker.com/_/thingsboard-pe-lwm2m-transport",
+                "https://hub.docker.com/_/thingsboard-pe-snmp-transport",
+                "https://hub.docker.com/r/bitnami/minideb",
+                "https://hub.docker.com/r/ibmcom/pipeline-base-image",
+                "https://hub.docker.com/r/puppet/r10k",
+                "https://hub.docker.com/r/google/dart",
+                "https://hub.docker.com/r/ibmcom/websphere-liberty",
+                "https://hub.docker.com/r/ibmcom/ibm-fhir-server",
+                "https://hub.docker.com/r/amazon/aws-lambda-python",
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras",
+                "https://hub.docker.com/r/puppet/puppet-agent-ubuntu",
+                "https://hub.docker.com/r/redhat/ubi8"
+            ]
+        }
+    },
+    "asterisk": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "phpmyadmin": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/phpmyadmin"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/phpmyadmin"
+            ]
+        }
+    },
+    "yourls": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/yourls"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "orientdb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/orientdb"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/orientdb-ppc64le"
+            ]
+        }
+    },
+    "jobber": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/jobber"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "clefos": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/clefos"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "openldap": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/openldap"
+            ]
+        }
+    },
+    "kaazing-gateway": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/kaazing-gateway"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/kaazing-gateway-ppc64le"
+            ]
+        }
+    },
+    "glassfish": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/glassfish"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/glassfish-ppc64le",
+                "https://hub.docker.com/r/amazon/aws-eb-glassfish"
+            ]
+        }
+    },
+    "smalltalk-gnu": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "term_ssh_wine_winmerge": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "asp.net": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/microsoft-dotnet-framework-aspnet",
+                "https://hub.docker.com/_/microsoft-dotnet-aspnet",
+                "https://hub.docker.com/_/microsoft-dotnet-core-aspnet",
+                "https://hub.docker.com/_/microsoft-dotnet",
+                "https://hub.docker.com/_/microsoft-dotnet-core",
+                "https://hub.docker.com/_/microsoft-dotnet-framework"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/microsoft-dotnet-nightly-aspnet",
+                "https://hub.docker.com/_/microsoft-dotnet-core-nightly-aspnet",
+                "https://hub.docker.com/_/microsoft-azure-event-grid-iotedge-samplesubscriber",
+                "https://hub.docker.com/_/microsoft-dotnet-core-nightly",
+                "https://hub.docker.com/_/microsoft-dotnet-samples",
+                "https://hub.docker.com/_/microsoft-dotnet-core-samples",
+                "https://hub.docker.com/_/microsoft-dotnet-framework-samples",
+                "https://hub.docker.com/_/microsoft-dotnet-nightly"
+            ]
+        }
+    },
+    "ibm security access manager": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/ibp-init",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-orderer",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-ca",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-couchdb",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-peer",
+                "https://hub.docker.com/r/ibmcom/ibp-grpcweb",
+                "https://hub.docker.com/r/rancher/fleet-agent"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/vault",
+                "https://hub.docker.com/_/composer",
+                "https://hub.docker.com/_/monica",
+                "https://hub.docker.com/_/ibmjava",
+                "https://hub.docker.com/_/ibm-semeru-runtimes"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/neuvector",
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/_/ibm-security-information-queue",
+                "https://hub.docker.com/_/ibm-db2-warehouse-ee",
+                "https://hub.docker.com/_/data-studio",
+                "https://hub.docker.com/_/ibm-security-guardium-external-stap",
+                "https://hub.docker.com/_/ibm-db2-warehouse-client-container",
+                "https://hub.docker.com/_/ibm-db2-warehouse-dev",
+                "https://hub.docker.com/_/ibm-db2-warehouse-sample-container",
+                "https://hub.docker.com/_/ibm-netcool-probe-email",
+                "https://hub.docker.com/_/data-server-manager-developer-c-edition",
+                "https://hub.docker.com/r/ibmcom/isam-openldap",
+                "https://hub.docker.com/r/ibmcom/ibm-operator-catalog",
+                "https://hub.docker.com/_/marklogic",
+                "https://hub.docker.com/r/ibmcom/sklm",
+                "https://hub.docker.com/r/ibmcom/isam",
+                "https://hub.docker.com/r/ibmcom/pause",
+                "https://hub.docker.com/r/ibmcom/ibm-mq-operator",
+                "https://hub.docker.com/r/ibmcom/isam-postgresql",
+                "https://hub.docker.com/r/ibmcom/mq"
+            ]
+        }
+    },
+    "influxdb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/telegraf",
+                "https://hub.docker.com/_/chronograf"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/influxdata-influxdb",
+                "https://hub.docker.com/r/bitnami/influxdb-relay",
+                "https://hub.docker.com/r/bitnami/influxdb",
+                "https://hub.docker.com/r/ibmcom/influxdb-ppc64le"
+            ]
+        }
+    },
+    "fedora": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/fedora"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-fedora-s390x",
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-fedora-amd64",
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-fedora"
+            ]
+        }
+    },
+    "nginx": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/nginx-proxy"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nginx"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/nginx",
+                "https://hub.docker.com/r/bitnami/nginx-ingress-controller",
+                "https://hub.docker.com/r/ubuntu/nginx",
+                "https://hub.docker.com/r/rancher/nginx-ingress-controller",
+                "https://hub.docker.com/r/kasmweb/nginx",
+                "https://hub.docker.com/r/rancher/nginx-ingress-controller-defaultbackend",
+                "https://hub.docker.com/r/bitnami/nginx-exporter",
+                "https://hub.docker.com/r/rancher/nginx",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller-ppc64le",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller",
+                "https://hub.docker.com/r/wallarm/nginx-ingress-controller",
+                "https://hub.docker.com/r/bitnami/nginx-ldap-auth-daemon",
+                "https://hub.docker.com/r/rancher/nginx-ingress-controller-amd64",
+                "https://hub.docker.com/r/wallarm/nginx-ingress-controller-amd64",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller-amd64",
+                "https://hub.docker.com/r/ibmcom/nginx-ingress-controller-s390x",
+                "https://hub.docker.com/r/wallarm/nginx-amd64",
+                "https://hub.docker.com/r/bitnami/wordpress-nginx",
+                "https://hub.docker.com/r/ibmcom/nginx-ppc64le",
+                "https://hub.docker.com/r/bitnami/drupal-nginx",
+                "https://hub.docker.com/r/rancher/k3d-proxy",
+                "https://hub.docker.com/r/wallarm/nginx",
+                "https://hub.docker.com/r/mirantis/lens-contest",
+                "https://hub.docker.com/r/intel/crypto-reference-stack"
+            ]
+        }
+    },
+    "amazoncorretto": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/amazoncorretto"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "sourcemage": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/sourcemage"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "logstash": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/logstash"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/grafana/logstash-output-loki",
+                "https://hub.docker.com/r/ibmcom/logstash",
+                "https://hub.docker.com/r/bitnami/logstash",
+                "https://hub.docker.com/r/ibmcom/logstash-ppc64le",
+                "https://hub.docker.com/r/bitnami/logstash-exporter",
+                "https://hub.docker.com/r/ibmcom/logstash-liveness-probe",
+                "https://hub.docker.com/r/ibmcom/logstash-liveness-probe-amd64",
+                "https://hub.docker.com/r/ibmcom/logstash-liveness-probe-ppc64le",
+                "https://hub.docker.com/r/ibmcom/logstash-liveness-probe-s390x",
+                "https://hub.docker.com/r/ibmcom/logstash-s390x",
+                "https://hub.docker.com/r/ibmcom/logstash-amd64"
+            ]
+        }
+    },
+    "alt": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/pypy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/pypy",
+                "https://hub.docker.com/_/jobber",
+                "https://hub.docker.com/_/alt"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/pypy-ppc64le"
+            ]
+        }
+    },
+    "scala-sbt": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "pivotal-tc-server": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "bonita": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/bonita"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/bonita-ppc64le"
+            ]
+        }
+    },
+    "mageia": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mageia"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "wordpress": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/wordpress"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/wordpress",
+                "https://hub.docker.com/r/bitnami/wordpress-nginx",
+                "https://hub.docker.com/r/bitnami/wordpress-k8s-rds-cnab",
+                "https://hub.docker.com/_/microsoft-azuredocs-multicontainerwordpress"
+            ]
+        }
+    },
+    "docker": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/python",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/hello-world",
+                "https://hub.docker.com/_/traefik",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/docker",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/golang",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/pypy",
+                "https://hub.docker.com/_/nats-streaming",
+                "https://hub.docker.com/_/adoptopenjdk",
+                "https://hub.docker.com/_/haxe",
+                "https://hub.docker.com/_/hylang",
+                "https://hub.docker.com/_/julia",
+                "https://hub.docker.com/_/hello-seattle",
+                "https://hub.docker.com/_/eclipse-temurin",
+                "https://hub.docker.com/_/hola-mundo",
+                "https://hub.docker.com/_/cheers"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/datadog/agent"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/alpine",
+                "https://hub.docker.com/_/ubuntu",
+                "https://hub.docker.com/_/python",
+                "https://hub.docker.com/_/busybox",
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/redis",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mysql",
+                "https://hub.docker.com/_/hello-world",
+                "https://hub.docker.com/_/nginx",
+                "https://hub.docker.com/_/registry",
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/httpd",
+                "https://hub.docker.com/_/traefik",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/wordpress",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/consul",
+                "https://hub.docker.com/_/memcached",
+                "https://hub.docker.com/_/nextcloud",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/docker",
+                "https://hub.docker.com/_/haproxy",
+                "https://hub.docker.com/_/ruby",
+                "https://hub.docker.com/_/elasticsearch"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "vcenter": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "ibm maximo asset management": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/ibp-init",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-orderer",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-ca",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-couchdb",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-peer",
+                "https://hub.docker.com/r/ibmcom/ibp-grpcweb"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mysql",
+                "https://hub.docker.com/_/wordpress",
+                "https://hub.docker.com/_/maven",
+                "https://hub.docker.com/_/adminer",
+                "https://hub.docker.com/_/joomla",
+                "https://hub.docker.com/_/drupal",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/redmine",
+                "https://hub.docker.com/_/ibmjava",
+                "https://hub.docker.com/_/bonita",
+                "https://hub.docker.com/_/plone",
+                "https://hub.docker.com/_/ibm-semeru-runtimes"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/appdynamics",
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/_/ibm-db2-warehouse-ee",
+                "https://hub.docker.com/_/data-studio",
+                "https://hub.docker.com/_/ibm-security-information-queue",
+                "https://hub.docker.com/_/ibm-security-guardium-external-stap",
+                "https://hub.docker.com/_/ibm-db2-warehouse-client-container",
+                "https://hub.docker.com/_/ibm-db2-warehouse-dev",
+                "https://hub.docker.com/_/ibm-db2-warehouse-sample-container",
+                "https://hub.docker.com/_/ibm-netcool-probe-email",
+                "https://hub.docker.com/_/data-server-manager-developer-c-edition",
+                "https://hub.docker.com/_/gitlab-community-edition",
+                "https://hub.docker.com/r/ibmcom/ibm-operator-catalog"
+            ]
+        }
+    },
+    "iojs": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/iojs"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "ibm-http-server": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "telegraf": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/telegraf"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ubuntu/telegraf",
+                "https://hub.docker.com/r/bitnami/telegraf",
+                "https://hub.docker.com/r/ibmcom/telegraf-ppc64le",
+                "https://hub.docker.com/r/intel/observability-telegraf",
+                "https://hub.docker.com/_/microsoft-azure-cognitive-services-vision-spatial-analysis-telegraf"
+            ]
+        }
+    },
+    "mssql-server-windows-express": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "node-red-docker": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "oracle database windows": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/windows_exporter-package",
+                "https://hub.docker.com/r/grafana/ci-build-windows"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/mysql",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/adminer",
+                "https://hub.docker.com/_/rethinkdb",
+                "https://hub.docker.com/_/neo4j",
+                "https://hub.docker.com/_/oraclelinux",
+                "https://hub.docker.com/_/crate",
+                "https://hub.docker.com/_/arangodb",
+                "https://hub.docker.com/_/aerospike"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-database-enterprise-edition",
+                "https://hub.docker.com/_/oracle-instant-client",
+                "https://hub.docker.com/_/oracle-serverjre-8",
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/_/oracle-jdk",
+                "https://hub.docker.com/_/oracle-fmw-infrastructure",
+                "https://hub.docker.com/_/oracle-webtier-12c",
+                "https://hub.docker.com/_/oracle-coherence-12c",
+                "https://hub.docker.com/_/marklogic"
+            ]
+        }
+    },
+    "openbd": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "websphere-traditional": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/r/ibmcom/websphere-traditional"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "objectivec-gcc": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "archlinux": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/archlinux"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "geonetwork": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/geonetwork"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "odoo": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/odoo"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/odoo",
+                "https://hub.docker.com/r/ibmcom/odoo-ppc64le"
+            ]
+        }
+    },
+    "gradle": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/gradle"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/gradle",
+                "https://hub.docker.com/r/ibmcom/gradle",
+                "https://hub.docker.com/r/ibmcom/gradle-ppc64le"
+            ]
+        }
+    },
+    "pypy": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/pypy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/pypy"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/pypy-ppc64le"
+            ]
+        }
+    },
+    "julia": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/julia"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/julia"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "oracle siebel": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/oraclelinux"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-database-enterprise-edition",
+                "https://hub.docker.com/_/oracle-serverjre-8",
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/oracle-instant-client",
+                "https://hub.docker.com/_/oracle-jdk",
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/_/oracle-fmw-infrastructure",
+                "https://hub.docker.com/_/oracle-webtier-12c",
+                "https://hub.docker.com/_/oracle-coherence-12c",
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras",
+                "https://hub.docker.com/r/bitnami/oraclelinux-base-buildpack",
+                "https://hub.docker.com/r/bitnami/oraclelinux-runtimes",
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras-base"
+            ]
+        }
+    },
+    "spiped": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/spiped"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "gcc": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/gcc"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "java": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/openjdk"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/appdynamics/java-agent"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/openjdk",
+                "https://hub.docker.com/_/tomcat",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/ghost",
+                "https://hub.docker.com/_/java",
+                "https://hub.docker.com/_/groovy",
+                "https://hub.docker.com/_/jetty",
+                "https://hub.docker.com/_/amazoncorretto",
+                "https://hub.docker.com/_/tomee",
+                "https://hub.docker.com/_/ibmjava"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-serverjre-8",
+                "https://hub.docker.com/_/oracle-jdk",
+                "https://hub.docker.com/_/appdynamics",
+                "https://hub.docker.com/r/appdynamics/java-agent",
+                "https://hub.docker.com/r/bitnami/java",
+                "https://hub.docker.com/r/bitnami/java-example",
+                "https://hub.docker.com/r/circleci/java",
+                "https://hub.docker.com/r/circleci/java-nginx",
+                "https://hub.docker.com/r/ibmcom/java-acceleration-amd64",
+                "https://hub.docker.com/r/ibmcom/java-websphere-traditional",
+                "https://hub.docker.com/r/circleci/node",
+                "https://hub.docker.com/r/datadog/dd-trace-java-docker-build",
+                "https://hub.docker.com/r/ibmcom/kafka-java-console-sample",
+                "https://hub.docker.com/r/amazon/aws-lambda-java"
+            ]
+        }
+    },
+    "fluentd": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/fluentd"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/fluentd"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/fluentd",
+                "https://hub.docker.com/r/rancher/fluentd",
+                "https://hub.docker.com/r/bitnami/fluentd-exporter",
+                "https://hub.docker.com/r/rancher/fluentd-helper",
+                "https://hub.docker.com/r/ibmcom/fluentd",
+                "https://hub.docker.com/r/ibmcom/fluentd-ppc64le",
+                "https://hub.docker.com/r/rancher/fluentd-geoip",
+                "https://hub.docker.com/r/ibmcom/fluentd-amd64",
+                "https://hub.docker.com/r/ibmcom/fluentd-s390x",
+                "https://hub.docker.com/r/pachyderm/fluentd",
+                "https://hub.docker.com/r/ibmcom/fluentd-elasticsearch-ppc64le"
+            ]
+        }
+    },
+    "python": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/python",
+                "https://hub.docker.com/_/pypy",
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/python",
+                "https://hub.docker.com/_/pypy",
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/python",
+                "https://hub.docker.com/_/anaconda",
+                "https://hub.docker.com/r/bitnami/python",
+                "https://hub.docker.com/r/bitnami/python-example",
+                "https://hub.docker.com/r/bitnami/python-snapshot",
+                "https://hub.docker.com/r/pachyderm/python-build",
+                "https://hub.docker.com/_/galacticfog",
+                "https://hub.docker.com/r/mirantis/python-operations-api",
+                "https://hub.docker.com/r/ibmcom/python-sybase-ppc64le",
+                "https://hub.docker.com/r/ibmcom/python-memcached-ppc64le",
+                "https://hub.docker.com/r/ibmcom/python-ceilometerclient-ppc64le",
+                "https://hub.docker.com/r/ibmcom/python-semver-ppc64le",
+                "https://hub.docker.com/r/ibmcom/python-glanceclient-ppc64le",
+                "https://hub.docker.com/r/ibmcom/pythonfutures-ppc64le",
+                "https://hub.docker.com/r/ibmcom/python-dropbox-ppc64le",
+                "https://hub.docker.com/r/amazon/aws-lambda-python",
+                "https://hub.docker.com/r/pachyderm/python-evaluate",
+                "https://hub.docker.com/r/ibmcom/quickcd",
+                "https://hub.docker.com/r/puppet/discocoreui",
+                "https://hub.docker.com/r/ibmcom/helayers-pylab",
+                "https://hub.docker.com/r/ibmcom/helayers-pylab-s390x",
+                "https://hub.docker.com/r/ibmcom/kafka-python-console-sample"
+            ]
+        }
+    },
+    "oracle designer": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/oraclelinux"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/oracle-database-enterprise-edition",
+                "https://hub.docker.com/_/oracle-serverjre-8",
+                "https://hub.docker.com/_/oracle-weblogic-server-12c",
+                "https://hub.docker.com/_/oracle-instant-client",
+                "https://hub.docker.com/_/mysql-enterprise-server",
+                "https://hub.docker.com/_/oracle-jdk",
+                "https://hub.docker.com/_/oracle-fmw-infrastructure",
+                "https://hub.docker.com/_/oracle-webtier-12c",
+                "https://hub.docker.com/_/oracle-coherence-12c",
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras",
+                "https://hub.docker.com/r/bitnami/oraclelinux-runtimes",
+                "https://hub.docker.com/r/bitnami/oraclelinux-base-buildpack",
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras-base",
+                "https://hub.docker.com/r/ibmcom/ace-designer-flows"
+            ]
+        }
+    },
+    "cordova": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "oracle-apex-ords": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "oracle real application clusters (rac) database": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/portainer/portainer-ce",
+                "https://hub.docker.com/r/portainer/portainer-ee"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/couchbase",
+                "https://hub.docker.com/_/node",
+                "https://hub.docker.com/_/mysql",
+                "https://hub.docker.com/_/mongo",
+                "https://hub.docker.com/_/postgres",
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/influxdb",
+                "https://hub.docker.com/_/amazonlinux",
+                "https://hub.docker.com/_/couchdb",
+                "https://hub.docker.com/_/percona",
+                "https://hub.docker.com/_/adminer",
+                "https://hub.docker.com/_/rethinkdb",
+                "https://hub.docker.com/_/neo4j",
+                "https://hub.docker.com/_/drupal",
+                "https://hub.docker.com/_/elixir",
+                "https://hub.docker.com/_/ros",
+                "https://hub.docker.com/_/oraclelinux",
+                "https://hub.docker.com/_/redmine",
+                "https://hub.docker.com/_/crate",
+                "https://hub.docker.com/_/arangodb",
+                "https://hub.docker.com/_/aerospike",
+                "https://hub.docker.com/_/storm",
+                "https://hub.docker.com/_/convertigo",
+                "https://hub.docker.com/_/lightstreamer",
+                "https://hub.docker.com/_/php-zendserver"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "marklogic": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/marklogic",
+                "https://hub.docker.com/_/marklogic-datahub-hr360"
+            ]
+        }
+    },
+    "alpine": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/alpine"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/alpine-git",
+                "https://hub.docker.com/r/ibmcom/alpine-helm-s390x",
+                "https://hub.docker.com/r/puppet/r10k",
+                "https://hub.docker.com/r/puppet/puppet-agent-alpine",
+                "https://hub.docker.com/r/armswdev/c-hello-world",
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-alpine-amd64",
+                "https://hub.docker.com/r/ibmcom/fhe-toolkit-alpine-s390x"
+            ]
+        }
+    },
+    "matomo": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/matomo"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/matomo"
+            ]
+        }
+    },
+    "express-gateway": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/express-gateway"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "cirros": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/cirros"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "nuxeo": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/nuxeo"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "sqlanywhere": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "redis_windows": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "firefox": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/kasmweb/firefox",
+                "https://hub.docker.com/r/kasmweb/firefox-mobile",
+                "https://hub.docker.com/r/kasmweb/firefox-flash"
+            ]
+        }
+    },
+    "asp-docker": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "debian": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ubuntu",
+                "https://hub.docker.com/_/debian",
+                "https://hub.docker.com/_/neurodebian"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/debian-base-buildpack",
+                "https://hub.docker.com/r/mirantis/debian-build-ubuntu-xenial",
+                "https://hub.docker.com/r/mirantis/debian-build-ubuntu-trusty"
+            ]
+        }
+    },
+    "openjdk_windows": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "bash": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/bash"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/bash-e1b682803c23c6bfb91968c476bcb2ec",
+                "https://hub.docker.com/r/ibmcom/bats-ppc64le"
+            ]
+        }
+    },
+    "zookeeper": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/zookeeper",
+                "https://hub.docker.com/_/softwareag-apiportal",
+                "https://hub.docker.com/_/softwareag-aris-connect",
+                "https://hub.docker.com/_/softwareag-arcm"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/zookeeper",
+                "https://hub.docker.com/r/bitnami/zookeeper-exporter",
+                "https://hub.docker.com/r/ibmcom/zookeeper-ppc64le"
+            ]
+        }
+    },
+    "plone": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/plone"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "hylang": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "adminer": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/adminer"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "zerto-exporter": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "mediawiki": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mediawiki"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/mediawiki"
+            ]
+        }
+    },
+    "ca wily introscope": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/wordpress",
+                "https://hub.docker.com/_/memcached",
+                "https://hub.docker.com/_/caddy",
+                "https://hub.docker.com/_/cassandra",
+                "https://hub.docker.com/_/geonetwork"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/google/cadvisor",
+                "https://hub.docker.com/r/bitnami/cassandra",
+                "https://hub.docker.com/_/netscaler-cpx",
+                "https://hub.docker.com/r/rancher/calico-node",
+                "https://hub.docker.com/r/ibmcom/calico-node",
+                "https://hub.docker.com/r/rancher/calico-cni",
+                "https://hub.docker.com/r/rancher/calico-pod2daemon-flexvol",
+                "https://hub.docker.com/r/ibmcom/calico-cni",
+                "https://hub.docker.com/r/ibmcom/calico-policy-controller-ppc64le",
+                "https://hub.docker.com/_/puppet-agent-ubuntu",
+                "https://hub.docker.com/r/bitnami/cassandra-exporter",
+                "https://hub.docker.com/r/ibmcom/calico-node-ppc64le",
+                "https://hub.docker.com/r/ibmcom/calico-policy-controller",
+                "https://hub.docker.com/r/rancher/calico-kube-controllers",
+                "https://hub.docker.com/r/ibmcom/calico-cni-ppc64le",
+                "https://hub.docker.com/r/ibmcom/calico-ctl",
+                "https://hub.docker.com/r/rancher/calico-ctl",
+                "https://hub.docker.com/r/circleci/cassandra",
+                "https://hub.docker.com/r/google/cadvisor-canary",
+                "https://hub.docker.com/r/ibmcom/calico-kube-controllers"
+            ]
+        }
+    },
+    "jetty": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/jetty"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/jetty-ppc64le"
+            ]
+        }
+    },
+    "websphere-portal": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/websphere-portal"
+            ]
+        }
+    },
+    "hitch": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hitch"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "clearlinux": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/clearlinux"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "rabbitmq": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/rabbitmq"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/rabbitmq",
+                "https://hub.docker.com/r/circleci/rabbitmq-delayed",
+                "https://hub.docker.com/r/bitnami/rabbitmq-exporter",
+                "https://hub.docker.com/r/circleci/rabbitmq",
+                "https://hub.docker.com/r/bitnami/rabbitmq-cluster-operator",
+                "https://hub.docker.com/r/ibmcom/rabbitmq-exporter-ppc64le"
+            ]
+        }
+    },
+    "management_frontend": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "silverpeas": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/silverpeas"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "lisp": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/clojure",
+                "https://hub.docker.com/_/hylang"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "odm": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/r/ibmcom/odm",
+                "https://hub.docker.com/r/ibmcom/odm-metering-service"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/odm-amd64",
+                "https://hub.docker.com/r/ibmcom/odm-ppc64le",
+                "https://hub.docker.com/r/ibmcom/odm-s390x"
+            ]
+        }
+    },
+    "docker-eas-peoplesoft-base": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "oraclelinux": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/oraclelinux"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras",
+                "https://hub.docker.com/r/bitnami/oraclelinux-runtimes",
+                "https://hub.docker.com/r/bitnami/oraclelinux-base-buildpack",
+                "https://hub.docker.com/r/bitnami/oraclelinux-extras-base"
+            ]
+        }
+    },
+    "redis": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/redis"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/redis",
+                "https://hub.docker.com/r/circleci/redis",
+                "https://hub.docker.com/r/bitnami/redis-sentinel",
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/r/bitnami/redis-exporter",
+                "https://hub.docker.com/r/bitnami/redis-cluster",
+                "https://hub.docker.com/r/ubuntu/redis",
+                "https://hub.docker.com/r/ibmcom/redis-ha",
+                "https://hub.docker.com/r/bitnami/redis-sentinel-exporter",
+                "https://hub.docker.com/r/ibmcom/ibm-cloud-databases-redis-operator",
+                "https://hub.docker.com/r/ibmcom/ibm-cloud-databases-redis-catalog",
+                "https://hub.docker.com/r/ibmcom/ibm-cloud-databases-redis-operator-bundle",
+                "https://hub.docker.com/r/ibmcom/redisearch-ppc64le",
+                "https://hub.docker.com/r/ibmcom/opencontent-redis-3"
+            ]
+        }
+    },
+    ".net framework": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/flink",
+                "https://hub.docker.com/_/kapacitor",
+                "https://hub.docker.com/_/redmine",
+                "https://hub.docker.com/_/mono",
+                "https://hub.docker.com/_/microsoft-dotnet-framework",
+                "https://hub.docker.com/_/microsoft-dotnet-framework-sdk",
+                "https://hub.docker.com/_/microsoft-dotnet-framework-runtime",
+                "https://hub.docker.com/_/microsoft-dotnet",
+                "https://hub.docker.com/_/microsoft-dotnet-runtime",
+                "https://hub.docker.com/_/microsoft-dotnet-core"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/thingsboard-pe-web-ui",
+                "https://hub.docker.com/_/microsoft-dotnet-framework-samples",
+                "https://hub.docker.com/_/puppet-agent-ubuntu",
+                "https://hub.docker.com/r/google/shaka-packager",
+                "https://hub.docker.com/r/amazon/aws-lambda-dotnet",
+                "https://hub.docker.com/r/ibmcom/tensorflow-ppc64le",
+                "https://hub.docker.com/r/intel/oneapi-dlfdkit",
+                "https://hub.docker.com/r/ibmcom/caffe-ppc64le",
+                "https://hub.docker.com/r/ibmcom/django-ppc64le",
+                "https://hub.docker.com/r/ibmcom/bats-ppc64le",
+                "https://hub.docker.com/r/graphcore/poplar",
+                "https://hub.docker.com/r/intel/nmt_marian_framework_demo",
+                "https://hub.docker.com/_/microsoft-dotnet-nightly-runtime",
+                "https://hub.docker.com/_/microsoft-dotnet-nightly-monitor",
+                "https://hub.docker.com/_/microsoft-dotnet-nightly-sdk"
+            ]
+        }
+    },
+    "clojure": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/clojure"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/clojure"
+            ]
+        }
+    },
+    "storm": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/storm"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "webfocus": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "nginx-proxy": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/rancher/nginx-proxy"
+            ]
+        },
+        "linux base os": "NA"
+    },
+    "xml-to-bootstrap": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "open-liberty": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/open-liberty"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "kafka": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/kafka",
+                "https://hub.docker.com/_/ibm-security-information-queue",
+                "https://hub.docker.com/r/bitnami/kafka-exporter",
+                "https://hub.docker.com/r/bitnami/kafka-trigger-controller",
+                "https://hub.docker.com/r/ibmcom/kafka",
+                "https://hub.docker.com/r/ibmcom/kafka-java-console-sample",
+                "https://hub.docker.com/r/ibmcom/kafka-sender",
+                "https://hub.docker.com/r/ibmcom/kafka-receiver",
+                "https://hub.docker.com/r/ibmcom/kafka-retry",
+                "https://hub.docker.com/r/ibmcom/kafka-ppc64le",
+                "https://hub.docker.com/r/ibmcom/kafka-nodejs-console-sample",
+                "https://hub.docker.com/r/ibmcom/kafka-java-liberty-sample",
+                "https://hub.docker.com/r/pachyderm/kafka-example-producer",
+                "https://hub.docker.com/r/ibmcom/kafka-python-console-sample",
+                "https://hub.docker.com/r/ibmcom/eventstreams-kafkaconnect",
+                "https://hub.docker.com/r/pachyderm/kafka-example-consumer",
+                "https://hub.docker.com/r/ibmcom/eventstreams-kafkamirrormaker",
+                "https://hub.docker.com/r/pachyderm/kafka_spout",
+                "https://hub.docker.com/r/ibmcom/kafka-java-console-schema-sample"
+            ]
+        }
+    },
+    "mongo-express": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mongo-express"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "ubuntu-upstart": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "eclipse": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/adoptopenjdk",
+                "https://hub.docker.com/_/eclipse-temurin"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/eclipse-mosquitto",
+                "https://hub.docker.com/_/adoptopenjdk",
+                "https://hub.docker.com/_/eclipse-temurin",
+                "https://hub.docker.com/_/ibm-semeru-runtimes"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/eclipse-che-plugin-registry-ppc64le",
+                "https://hub.docker.com/r/ibmcom/eclipse-che-server-ppc64le",
+                "https://hub.docker.com/r/ibmcom/eclipse-che-machine-exec-ppc64le",
+                "https://hub.docker.com/r/ibmcom/eclipse-che-init-plugin-broker-ppc64le",
+                "https://hub.docker.com/r/ibmcom/eclipse-che-jwtproxy-ppc64le",
+                "https://hub.docker.com/r/ibmcom/eclipse-che-unified-plugin-broker-ppc64le"
+            ]
+        }
+    },
+    "fsharp": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/fsharp"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "chronograf": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/chronograf"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "known": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/odoo",
+                "https://hub.docker.com/_/known",
+                "https://hub.docker.com/_/softwareag-terracottadb"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/odoo-ppc64le",
+                "https://hub.docker.com/_/microsoft-fluidframework-routerlicious-server",
+                "https://hub.docker.com/_/microsoft-fluidframework-routerlicious-historian"
+            ]
+        }
+    },
+    "hadoop-docker": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "mariadb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mariadb",
+                "https://hub.docker.com/_/phpmyadmin"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/mariadb",
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/r/circleci/mariadb",
+                "https://hub.docker.com/r/bitnami/mariadb-galera",
+                "https://hub.docker.com/r/ibmcom/mariadb",
+                "https://hub.docker.com/r/ibmcom/mariadb-ppc64le",
+                "https://hub.docker.com/r/ibmcom/mariadb-s390x",
+                "https://hub.docker.com/r/ibmcom/mariadb-amd64",
+                "https://hub.docker.com/r/ibmcom/mariadb-centos-amd64",
+                "https://hub.docker.com/r/ibmcom/mariadb-centos",
+                "https://hub.docker.com/r/ibmcom/mariadb-centos-s390x",
+                "https://hub.docker.com/r/ibmcom/mariadb-centos-ppc64le"
+            ]
+        }
+    },
+    "opensuse": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "almalinux": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/almalinux"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "php": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/php",
+                "https://hub.docker.com/_/adminer",
+                "https://hub.docker.com/_/composer",
+                "https://hub.docker.com/_/phpmyadmin",
+                "https://hub.docker.com/_/mediawiki",
+                "https://hub.docker.com/_/yourls",
+                "https://hub.docker.com/_/php-zendserver"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/circleci/php",
+                "https://hub.docker.com/r/bitnami/phpmyadmin",
+                "https://hub.docker.com/r/bitnami/php-fpm",
+                "https://hub.docker.com/r/bitnami/phpbb",
+                "https://hub.docker.com/r/bitnami/phppgadmin",
+                "https://hub.docker.com/r/bitnami/php-example",
+                "https://hub.docker.com/r/mirantis/phpldapadmin",
+                "https://hub.docker.com/r/amazon/amazon-ecs-sample"
+            ]
+        }
+    },
+    "kong": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/kong"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/kong",
+                "https://hub.docker.com/r/bitnami/kong-ingress-controller",
+                "https://hub.docker.com/_/galacticfog"
+            ]
+        }
+    },
+    "arangodb": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/arangodb"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "sl": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/sl"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/kasmweb/slack",
+                "https://hub.docker.com/r/circleci/slanger",
+                "https://hub.docker.com/r/circleci/slim-base",
+                "https://hub.docker.com/r/rancher/slack-irc",
+                "https://hub.docker.com/r/rancher/slackin-extended",
+                "https://hub.docker.com/r/sysdig/sysdig-bot",
+                "https://hub.docker.com/r/rancher/jenkins-slave"
+            ]
+        }
+    },
+    "remedy-admin": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "piwik": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/piwik"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "mq": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/eclipse-mosquitto",
+                "https://hub.docker.com/r/ibmcom/ace-mq",
+                "https://hub.docker.com/r/ibmcom/ace-mqclient",
+                "https://hub.docker.com/r/ibmcom/iib-mq-server"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/thingsboard-pe-mqtt-transport",
+                "https://hub.docker.com/r/ibmcom/mq",
+                "https://hub.docker.com/r/ibmcom/mqmft",
+                "https://hub.docker.com/r/ibmcom/ibm-mq-operator",
+                "https://hub.docker.com/r/ibmcom/ibm-mq-operator-bundle",
+                "https://hub.docker.com/r/ibmcom/eventstreams-kafkaconnect",
+                "https://hub.docker.com/r/ibmcom/ibm-mq-operator-catalog"
+            ]
+        }
+    },
+    "euleros": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/euleros"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "docker-sybase": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "caddy": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/caddy"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "docker-dev": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "javascript-node.js": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "siebelapp": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "ibm transformation extender": {
+        "Windows base os": {
+            "Official image": [],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/ibp-init",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-orderer",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-ca",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-couchdb",
+                "https://hub.docker.com/r/ibmcom/ibp-fabric-peer",
+                "https://hub.docker.com/r/ibmcom/ibp-grpcweb"
+            ]
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/ibmjava",
+                "https://hub.docker.com/_/ibm-semeru-runtimes"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/_/ibm-cloud-automation-manager",
+                "https://hub.docker.com/_/ibm-db2-warehouse-ee",
+                "https://hub.docker.com/_/data-studio",
+                "https://hub.docker.com/_/ibm-security-guardium-external-stap",
+                "https://hub.docker.com/_/ibm-security-information-queue",
+                "https://hub.docker.com/_/ibm-db2-warehouse-client-container",
+                "https://hub.docker.com/_/ibm-db2-warehouse-dev",
+                "https://hub.docker.com/_/ibm-db2-warehouse-sample-container",
+                "https://hub.docker.com/_/ibm-netcool-probe-email",
+                "https://hub.docker.com/_/data-server-manager-developer-c-edition",
+                "https://hub.docker.com/r/ibmcom/transformation-advisor-db",
+                "https://hub.docker.com/r/ibmcom/transformation-advisor-server",
+                "https://hub.docker.com/r/ibmcom/transformation-advisor-ui",
+                "https://hub.docker.com/r/ibmcom/transformation-advisor-operator",
+                "https://hub.docker.com/_/sap-hana-express-edition",
+                "https://hub.docker.com/r/ibmcom/ibm-operator-catalog",
+                "https://hub.docker.com/_/sap-hana-express-edition-incl-application-services",
+                "https://hub.docker.com/r/ibmcom/pause",
+                "https://hub.docker.com/r/ibmcom/ibm-mq-operator",
+                "https://hub.docker.com/r/ibmcom/transformation-advisor-db-amd64",
+                "https://hub.docker.com/r/ibmcom/transformation-advisor-operator-bundle",
+                "https://hub.docker.com/r/ibmcom/mq",
+                "https://hub.docker.com/r/ibmcom/cloudant-developer"
+            ]
+        }
+    },
+    "mono": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/mono"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/mono2micro-ui",
+                "https://hub.docker.com/r/ibmcom/mono2micro-bluejay",
+                "https://hub.docker.com/r/ibmcom/mono2micro-aipl",
+                "https://hub.docker.com/r/ibmcom/mono2micro-cardinal",
+                "https://hub.docker.com/r/ibmcom/monocular-prerender",
+                "https://hub.docker.com/r/ibmcom/monocular-api",
+                "https://hub.docker.com/r/ibmcom/monocular-api-ppc64le",
+                "https://hub.docker.com/r/ibmcom/monocular-prerender-ppc64le"
+            ]
+        }
+    },
+    "opentext": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "svn-apache": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "registry": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/registry"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/ibmcom/registry",
+                "https://hub.docker.com/r/ibmcom/registry-ppc64le",
+                "https://hub.docker.com/r/ibmcom/registry-s390x",
+                "https://hub.docker.com/r/ibmcom/registry-amd64",
+                "https://hub.docker.com/r/ibmcom/isam-openldap",
+                "https://hub.docker.com/r/ibmcom/reg-crawler",
+                "https://hub.docker.com/r/snyk/container-registry-agent",
+                "https://hub.docker.com/r/ibmcom/verify-access-openldap",
+                "https://hub.docker.com/r/ibmcom/wazi-code-plugin",
+                "https://hub.docker.com/r/ibmcom/wazi-code-dev-file",
+                "https://hub.docker.com/_/microsoft-iot-opc-registry-service",
+                "https://hub.docker.com/_/microsoft-iot-opc-registry-sync-service",
+                "https://hub.docker.com/_/microsoft-iot-opc-registry-events-forwarder",
+                "https://hub.docker.com/_/microsoft-iot-opc-twin-registry"
+            ]
+        }
+    },
+    "eclipse-temurin": {
+        "Windows base os": {
+            "Official image": [
+                "https://hub.docker.com/_/adoptopenjdk",
+                "https://hub.docker.com/_/eclipse-temurin"
+            ],
+            "Verified Publisher": []
+        },
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/adoptopenjdk",
+                "https://hub.docker.com/_/eclipse-temurin"
+            ],
+            "Verified Publisher": []
+        }
+    },
+    "sysinternals": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "mongo_linux": {
+        "Windows base os": "NA",
+        "linux base os": "NA"
+    },
+    "tomcat": {
+        "Windows base os": "NA",
+        "linux base os": {
+            "Official image": [
+                "https://hub.docker.com/_/tomcat",
+                "https://hub.docker.com/_/tomee"
+            ],
+            "Verified Publisher": [
+                "https://hub.docker.com/r/bitnami/tomcat",
+                "https://hub.docker.com/_/microsoft-java-tomcat"
+            ]
+        }
+    }
+}
