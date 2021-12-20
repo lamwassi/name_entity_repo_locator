@@ -1,15 +1,5 @@
 import json
-from openpyxl import load_workbook
-import re
-
-#selenium driver
-from selenium.webdriver.common.by import By
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.common.keys import Keys
-from driver import  get_driver
+from selenium_driver  import SeleniumDriver
 
 #ignore warning
 import sys
@@ -18,181 +8,16 @@ if not sys.warnoptions:
     warnings.simplefilter("ignore")
 
 
-def cleanStrValue(value):
+################################################################################################
+##################### DOCKERHUB CONTAINER PLATFORM ############################################
+################################################################################################
+class DockerHub(SeleniumDriver):
 
-    """
-    arguments:   
-        value : str 
-    Return:             
-        str : formated str
-    """    
-    if value:
-        value = str(value).strip()
-        value = value.replace(u'\u00a0', ' ')
-        value = re.sub(r'[^\x00-\x7F]+', ' ', ' ' + str(value) + ' ').strip()
-    else:
-        value = ''
-        
-    return value
+    def __init__(self, url):
+        SeleniumDriver.__init__(self)
+        self.url = url
 
-
-def load_data(inputexcel , sheetname = "dockerimages" , container_name_col = "A"):
-
-    """
-    Args:
-        inputexcel:
-    Returns:
-        dict: dictionary of dockerimage name entity as key and url as value
-    """
-    
-    if not inputexcel:
-        return None
-
-    sheet = load_workbook(filename = inputexcel)
-    sheet_data = sheet[sheetname]
-    max_row = sheet_data.max_row
-    containers = {}
-    for xint in range(2, max_row+1):
-        row_num = str(xint)    
-        container_name = cleanStrValue(value = sheet_data[container_name_col + row_num].value)
-        containers[row_num] = container_name
-       
-    return containers
-
-
-def get_containers(url , new_driver, all = False, default_container = "tomcat"):
-    """
-    Args:
-        url: str
-        new_driver: Selenium Class instance
-        all: boolean
-        default_container: str
-
-    Returns:
-
-        containers: list 
-        
-     """
-    
-    new_driver.open_driver(url)
-    
-    if all : 
-        search_url = new_driver.all_containers_url(default_container)
-        
-        return search_url
-    
-    else:
-
-        containers = new_driver.get_base_os()
-       
-        return containers
-
-
-def search_base_os(entity:str) -> str:
-    """
-    Args:
-        entity: 
-    Returns:
-        dict: a dictionary containing windows and linux based OS
-    """
-  
-    base_os = {}
-    url = "https://hub.docker.com/"
-    new_driver = SeleniumDriver()
-    search_url = get_containers(url, new_driver , all = True , default_container = entity)
-
-    #Filter for official product and verified publisher
-    filter = "&image_filter=store%2Cofficial" 
-  
-    windows_base_images =   search_url+filter+'&operating_system=windows'
-    linux_base_images   =   search_url+filter+'&operating_system=linux'
-
-    new_driver.driver.switch_to.new_window('tab')
-    base_os["Windows base os"] =  get_containers(windows_base_images, new_driver , all = False)
-
-    new_driver.driver.switch_to.new_window('tab')
-    base_os["linux base os"] =  get_containers(linux_base_images,  new_driver,  all = False)
-
-    new_driver.close_driver()
-    return base_os
-
-
-class SeleniumDriver():
-
-    def __init__(self) -> None:
-
-        self.driver = get_driver()
-
-    def open_driver(self, url:str):
-        """
-        Args:
-           url: str
-        Returns:
-            open the selenium driver
-        """
-        self.driver.get(url)
-
-    def close_driver(self):
-        """
-        Args:
-        
-        Returns:
-            close the Selenium driver
-        """ 
-        self.driver.quit()
-
-
-    def get_all_xpath(self):
-        """
-        Args:
-         
-        Returns:
-            xpath_element: 
-        """
-        return self.driver.find_elements(By.XPATH ,".//*" )
-
-    def all_containers_url(self, entity:str) -> str:
-
-        """
-        Args:
-            entity: name entity
-        Returns:
-            str: search results url
-        """
-      
-        search_url = ""
-        elem =self.get_all_xpath() 
-        for el in elem:
-            if el.tag_name =="input":
-             #   el.clear() 
-                el.send_keys(entity)
-                el.send_keys(Keys.ENTER)
-                search_url = self.driver.current_url
-                break
-        return search_url
-
-    def find_element_by_class_name(self):
-        """
-        Args:
-           
-        Returns:
-            elements containing search results
-        """
-        
-        elements = None
-
-        try:
-            if   "No results" in self.driver.find_element(By.CLASS_NAME, "styles__searchHeader___28vtd").text:
-                elements = None
-            else: 
-                elements = self.driver.find_element(By.CLASS_NAME , "styles__resultsWrapper___38JCx") 
-
-        except Exception as e:
-            print("There are no results for this search in Docker Hub.  ")
-
-        return  elements
-
-    def get_base_os(self):
+    def get_base_os(self, url):
         """
         Args:
         
@@ -200,6 +25,7 @@ class SeleniumDriver():
             List of base OS containers or None if no base OS if found
 
         """
+        self.open_driver(url)
         container_elems = self.find_element_by_class_name()
         
         if container_elems == None:
@@ -222,52 +48,154 @@ class SeleniumDriver():
                     else: break
             return  containers
 
-def save_search_results(search_results):
+    def search_base_os(self,entity:str) -> str:
+        """
+        Args:
+            entity: 
+        Returns:
+            dict: a dictionary containing windows and linux based OS
+        """
+        base_os = {}
+        search_url = "https://hub.docker.com/search?q="+entity+"&type=image"
+
+        #Filter for official product and verified publisher
+        filter = "&image_filter=store%2Cofficial" 
     
-    with open("base_os.json", "w", encoding = 'utf-8') as base_os_file:
-        base_os_file.write(json.dumps(search_results, indent= 4))
+        windows_base_images =   search_url+filter+'&operating_system=windows'
+        linux_base_images   =   search_url+filter+'&operating_system=linux'
 
 
-def search_result(entities):
+        self.url = windows_base_images
+        base_os["Windows base os"] =  self.get_base_os(self.url)
 
-    #len entities = 305 # 1h40
-    search_results = {}
-    for idx ,   image in  entities.items():  
-        search_results[image] = search_base_os(image)
-    return search_results
+        self.url = linux_base_images
+        base_os["linux base os"] =  self.get_base_os(self.url)
+
+        self.close_driver()
+        return base_os
+
+    def save_search_results(self,search_results):
+
+        with open("base_os.json", "w", encoding = 'utf-8') as base_os_file:
+            base_os_file.write(json.dumps(search_results, indent= 4))
+
+
+    def search_result(self,entities):
+
+        search_results = {}
+        for _  ,   image in  entities.items():  
+            search_results[image] = self.search_base_os(image)
+        return search_results
+
+
+#####################################################################################################
+#################### REDHAT OPERATOR PLATFORM ######################################################
+#####################################################################################################
+class OpenShiftOperator(SeleniumDriver):
+
+    def __init__(self, url) -> None:
+        SeleniumDriver.__init__(self)
+        self.home_url = url
+
     
+    def get_operator(self, search_url):
+        
+        self.open_driver(search_url)
+        
+        #check if web content is empty
+        body = self.search_body(empty_body_element_class_name="oh-hub-page__content")
+
+        if "No Results Match the Filter Criteria" in body : print("No Results Match the Filter Criteria")
+        else: 
+            selector = ".catalog-tile-view-pf"
+            elems = self.find_element_by_css_selector(selector)
+            operator_elements = elems.find_elements_by_tag_name("a")
+            for operator in operator_elements:
+                print(operator.get_attribute("href"))
+
+    def search_operator(self, entity):
+
+        home_url ="https://operatorhub.io/"
+        search_url = home_url+ "?keyword=" + entity
+        self.get_operator(search_url)
 
 
-def filter_entity(entity_names1, entity_names2):
+####################################################################################################
+##################       OPENSHIFT CONTAINER PLATFORM   ###########################################
+####################################################################################################
+class Openshift(SeleniumDriver):
 
-    ent_name1=  [name1.lower() for _ , name1 in entity_names1.items()]
-    ent_name2 = [name2.lower() for _, name2 in entity_names2.items()]
-    ent_name = list(set(ent_name1 + ent_name2))
-    
-    entities = {}
-    for i , name in enumerate(ent_name):
-        entities[str(i)] = name
-    
-    return entities
+
+    def __init__(self, url):
+        SeleniumDriver.__init__(self)
+        self.home_url = url
+
+    def get_containers(self, search_url):
+        
+        self.open_driver(search_url)
+
+        search_body = self.search_body()
+
+        #Check if web content is empty
+        if search_body != '': 
+            print(search_body)
+            return  search_body
+        else:
+
+            #num_page = self.get_number_of_pages()
+
+            selector = "#nr-search-all"
+            container_elems = self.find_element_by_css_selector(selector)
+
+            if container_elems != None:
+                container_elements = container_elems.find_elements_by_tag_name("a")
+                for cont in container_elements:
+                    print(cont.get_attribute("href"))
+            else: 
+                print("No search elements found")
+
+
+    def get_number_of_pages(self):
+
+        selector_class = ".pf-c-pagination__nav-page-select > input:nth-child(1)"
+        num_pages_element = self.find_element_by_css_selector(selector_class)
+        if num_pages_element == None : return 0
+        else: return num_pages_element.get_attribute("max")
+
+
+    def search_redhat_containers(self,container_name):
+        """
+        
+        """
+        provider = "Red Hat" # Only select images from RED HAT amongt other providers 
+        base_url = "https://catalog.redhat.com/software/containers/search?q="+container_name+"&p=1"
+        search_url = base_url+"&vendor_name=" + provider
+
+        self.get_containers(search_url)   
+
 
 if __name__ == "__main__":
 
-    #Load data from xlxs files
-    file_pth =     "kb/ACA_KG_0.0.2.0.xlsx"
-    entity_names1 = load_data(file_pth , sheetname = "dockerimages" , container_name_col = "A")
+    #Sample single input data
+    sample_entity_name = "tomcat"
+    input_data = {"entity name": sample_entity_name}   
 
-    docker_images_pth = "kb/DockerHubImages.xlsx"
-    entity_names2 = load_data(docker_images_pth, sheetname = "Sheet1", container_name_col  = "B")
 
-    entity_names  = filter_entity(entity_names1, entity_names2)
-    base_os_data  = search_result(entity_names)
-    save_search_results(base_os_data)
+    doc = DockerHub("https://hub.docker.com/")
+    print("DOCKERHUB CONTAINER IMAGES\n")
+    print(doc.search_result(input_data))
 
-    
-    # #Sample single input data
-    # sample_entity_name = "mysql"
-    # input_data = {"1": sample_entity_name}
-    # print(search_result(input_data))
+
+    print("OPENSHIFT CONTAINER IMAGES\n")
+    openshift_instance = Openshift("https://catalog.redhat.com/software/containers/search")
+    openshift_instance.search_redhat_containers(input_data["entity name"])
+
+
+    print("OPERATORS\n")
+    opr = OpenShiftOperator("https://operatorhub.io/")
+    opr.search_operator(input_data["entity name"])
+
+
 
 
 

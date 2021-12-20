@@ -12,6 +12,7 @@ BASE_URL = getenv('BASE_URL', 'http://localhost:8080')
 
 def get_driver():
     """ Executed once before all tests """
+    
     options = webdriver.ChromeOptions()
     options.add_argument("start-maximized") # open Browser in maximized mode
     options.add_argument("disable-infobars") # disabling infobars
@@ -21,6 +22,6 @@ def get_driver():
     options.add_argument("--no-sandbox") # Bypass OS security model
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
-    driver.implicitly_wait(WAIT_SECONDS) # seconds
+    #driver.implicitly_wait(WAIT_SECONDS) # seconds
     return driver
 
