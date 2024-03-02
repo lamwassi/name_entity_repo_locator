@@ -15,6 +15,7 @@ import os
 import logging
 import unittest
 from source.url_detector import * 
+import time
 
 
 ######################################################################
